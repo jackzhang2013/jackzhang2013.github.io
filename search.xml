@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Hello hexo</title>
-    <url>/2024/04/20/Hello-hexo/</url>
-    <content><![CDATA[<html><head></head><body><h1 id="hello-hexo"><a href="#hello-hexo" class="headerlink" title="hello, hexo!"></a>hello, hexo!</h1><p>这是一篇文章<br></p><figure class="highlight cpp"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">	cout &lt;&lt; <span class="string">"hello, hexo!"</span>;</span><br><span class="line">   <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><p></p>
-<script type="math/tex; mode=display">
-a+b=c</script></body></html>]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello hexo</title>
+      <link href="/2024/04/20/Hello-hexo/"/>
+      <url>/2024/04/20/Hello-hexo/</url>
+      
+        <content type="html"><![CDATA[<html><head></head><body><h1 id="hello-hexo"><a href="#hello-hexo" class="headerlink" title="hello, hexo!"></a>hello, hexo!</h1><p>这是一篇文章<br></p><figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">cout &lt;&lt; <span class="string">"hello, hexo!"</span>;</span><br><span class="line">   <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><p></p><script type="math/tex; mode=display">a+b=c</script></body></html>]]></content>
+      
+      
       <categories>
-        <category>杂七杂八</category>
+          
+          <category> 杂七杂八 </category>
+          
       </categories>
-      <tags>
-        <tag>其它</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 其它 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
