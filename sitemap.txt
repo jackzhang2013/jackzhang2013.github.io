@@ -1,0 +1,13 @@
+http://example.com/2024/04/20/Hello-hexo/
+http://example.com/2024/04/20/%E6%B4%9B%E8%B0%B7P1001%E9%A2%98%E8%A7%A3/
+http://example.com/resources/index.html
+http://example.com/about/index.html
+http://example.com/tags/index.html
+http://example.com/categories/index.html
+http://example.com/lib/pace/README.html
+http://example.com/lib/canvas-nest/README.html
+http://example.com/
+http://example.com/tags/%E5%85%B6%E5%AE%83/
+http://example.com/tags/%E7%BC%96%E7%A8%8B-OI/
+http://example.com/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/
+http://example.com/categories/C/

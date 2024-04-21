@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello hexo</title>
+    <url>/2024/04/20/Hello-hexo/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><html><head></head><body><h1 id="hello-hexo"><a href="#hello-hexo" class="headerlink" title="hello, hexo!"></a>hello, hexo!</h1><p>这是一篇文章<br></p><figure class="highlight cpp"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">    cout &lt;&lt; <span class="string">"hello, hexo!"</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><p></p>
+<script type="math/tex; mode=display">
+a+b=c</script><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@glorious/demo@0.11.12/dist/gdemo.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prismjs/themes/prism-prism-vsc-dark-plus.css">
+<script src="//cdn.jsdelivr.net/npm/@glorious/demo@0.11.12/dist/gdemo.min.js"></script>
+<div id="demo-teriminal" style="height: 250px"></div>
+<script>
+new GDemo('#demo-teriminal')
+  .openApp('terminal', {minHeight: '250px', windowTitle: 'bash', promptString: '$'})
+  .command(`cd <span class="token operator">/</span>usr<span class="token operator">/</span>bin`, {onCompleteDelay: 500})
+  .command(`node <span class="token punctuation">.</span><span class="token operator">/</span>demo`, {onCompleteDelay: 500})
+  .respond(`Hello World!`)
+  .end();
+</script></body></html>]]></content>
+      <categories>
+        <category>杂七杂八</category>
+      </categories>
+      <tags>
+        <tag>其它</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>洛谷P1001题解</title>
     <url>/2024/04/20/%E6%B4%9B%E8%B0%B7P1001%E9%A2%98%E8%A7%A3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><html><head></head><body><p>首先，先要把c++的框架写完：<br></p><figure class="highlight cpp"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt; iostream &gt;</span></span></span><br><span class="line"><span class="comment">//引入iostream头文件</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="comment">//包含std命名空间</span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">    <span class="comment">//code</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="comment">//退出</span></span><br><span class="line">}</span><br><span class="line"><span class="comment">//定义主函数</span></span><br></pre></td></tr></tbody></table></figure><br>随后，就可以开始写$a+b$了<br><figure class="highlight cpp"><table><tbody><tr><td class="code"><pre><span class="line"><span class="type">int</span> a, b<span class="comment">//定义a, b</span></span><br><span class="line">cin &gt;&gt; a &gt;&gt; b;<span class="comment">//输入a, b</span></span><br><span class="line">cout &lt;&lt; a + b;<span class="comment">//输出a + b</span></span><br></pre></td></tr></tbody></table></figure><br>提交，AC<p></p>
@@ -10,19 +34,6 @@
       </categories>
       <tags>
         <tag>编程-OI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello hexo</title>
-    <url>/2024/04/20/Hello-hexo/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><html><head></head><body><h1 id="hello-hexo"><a href="#hello-hexo" class="headerlink" title="hello, hexo!"></a>hello, hexo!</h1><p>这是一篇文章<br></p><figure class="highlight cpp"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>{</span><br><span class="line">	cout &lt;&lt; <span class="string">"hello, hexo!"</span>;</span><br><span class="line">   <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><p></p>
-<script type="math/tex; mode=display">
-a+b=c</script></body></html>]]></content>
-      <categories>
-        <category>杂七杂八</category>
-      </categories>
-      <tags>
-        <tag>其它</tag>
       </tags>
   </entry>
 </search>
